@@ -5,7 +5,7 @@ public class ProductDTO {
     private String name;
     private double price;
     private Long categoryId;
-    private Integer quantity; // New field for the stock level
+    private Integer quantity; 
 
     public Long getId() {
         return id;
